@@ -1,0 +1,20 @@
+// Import Core Clean Blog SCSS
+@import "../assets/vendor/startbootstrap-clean-blog/scss/clean-blog.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body, .meta {
+    font-family: 'PT Serif', serif !important;
+}
+
+input, textarea {
+    font-family: 'PT Serif', serif !important;
+    &::-webkit-input-placeholder {
+        font-family: 'PT Serif', serif !important;
+    }
+}
+
+header.masthead {
+    background-color: #c0c0f2;
+}
